@@ -1,0 +1,243 @@
+#+Author: Gary Phillips (WorldGeek)
+#+Email: worldgeek@rolmo.com
+#+OPTIONS: toc:nil date:nil timestamp:nil num:nil reveal_title_slide:nil
+
+#+REVEAL_THEME: sky
+#+REVEAL_TRANS: cube  
+
+* Emacs, India and Geminis
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/mountain.jpg
+:reveal_background_trans: fade
+:END:
+
+* One Gemini
+** Gary Phillips (worldgeek@rolmo.com)
+
+#+ATTR_REVEAL: :frag (t)
+ * Born in June 😉
+ * Consultant Software Engineer since 1992
+ * System Troubleshooting
+ * C/C++, Java, Javascript, Linux, MySQL, Python
+ * Gigabytes of log files 
+
+** i can has Emacs
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/emacs-screen.png
+:reveal_background_trans: fade
+:END:
+
+#+ATTR_REVEAL: :frag (t)
+** Emacs is my IDE and my Friend
+👫
+** Don't want to leave home without it!
+
+* Another Gemini
+** An Android Smartphone (yawn)
+
+#+ATTR_REVEAL: :frag (t)
+** with a Physical Keyboard (yay)!
+** ❤️🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/Image-PDA-2-3-Right-1_1296x.jpg
+:reveal_background_trans: fade
+:END:
+
+** Gemini PDA Hardware Specs
+|-----------------+-------------------------|
+| Keyboard        | full Qwerty, mechanical |
+| Screen          | 6" 2160x1080            |
+| RAM             | 4 GB                    |
+| CPU             | 10 ARM Cores @ 2 GHz    |
+| Disk (internal) | 64 GB + 200 GB (SD)     |
+| Ports           | 2 x USB-C, Headphone    |
+| Radios          | Wifi, 4G, Bluetooth     |
+|-----------------+-------------------------|
+
+* India
+** Our relationship began in 1995
+🇮🇳 🇬🇧
+** Tashi Jong, Kangra, Himachal, India
+
+https://earth.app.goo.gl/?apn=com.google.earth&ibi=com.google.b612&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4032.0750994,76.6253237,1028.75609506a,878.87986179d,35y,0h,45t,0r%2fdata%3dCmMaYRJZCiUweDM5MDZhNWFmZDJkYjI1NjM6MHg4MDQzNmFiZjU1ZWIxMzBiGYB5bducCUBAIXo6sk0FKFNAKh5UYXNoaSBKb25nIEtoYW1wYWdhciBNb25hc3RlcnkYAiABKAIoAg
+
+** 
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/village.jpg
+:reveal_background_trans: slide
+:END:
+
+** 
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/shedra.jpg
+:reveal_background_trans: slide
+:END:
+
+*  Ready ...
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/ready.jpg
+:reveal_background_trans: fade
+:END:
+
+
+** Install some Software
+#+ATTR_REVEAL: :frag (roll-in)
+ * Rooted Android (from manufacturer)
+ * Root shielding by Magisk
+ * Termux from Google Play Store
+ * Now we have a terminal and /apt/
+ * $ apt install emacs
+ * $ apt install git
+ * $ git clone spacemacs.git
+ * $ emacs
+
+* Packing
+** 
+:PROPERTIES:
+:reveal_background: ./gemini-talk-images/unpacked.jpg
+:reveal_background_trans: slide
+:END:
+
+* Playing In India
+** Internet 1
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/GlocalMe-G3-on-stones-864x558.jpg
+:reveal_background_trans: fade
+:END:
+
+** Internet 2
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/fiber.jpg
+:reveal_background_trans: fade
+:END:
+
+** My Transport
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/scooter.jpg
+:reveal_background_trans: fade
+:END:
+
+** 37.5 metre
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/guru-rinpoche.jpg
+:reveal_background_trans: fade
+:END:
+
+** Clear Sky
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/moon-clear.jpg
+:reveal_background_trans: fade
+:END:
+
+
+* Working in India
+
+** The Company
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/glacial.png
+:reveal_background_trans: fade
+:END:
+
+http://www.glacialadventures.net/
+
+** The Boss
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/rana.jpg
+:reveal_background_trans: fade
+:END:
+
+** The Team
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/callcentre.jpg
+:reveal_background_trans: fade
+:END:
+
+** The Work
+#+ATTR_REVEAL: :frag (t)
+ * Legacy PHP / MySQL Web App
+ * 80 Users
+ * Page updates > 1 minute each 😧
+
+** How Emacs Helped
+#+ATTR_REVEAL: :frag (t)
+ * Spacemacs auto-configured for SQL, PHP, ssh
+ * No file too big
+ * Fast searching with ripgrep
+ * Edit and grok SQL logs
+
+* Gemini + Emacs Rox
+#+ATTR_REVEAL: :frag (t)
+ * Physical keyboard
+ * Hack anywhere
+ * Even standing up on an airport bus
+ * Android is always there 
+ * For web search, social media etc
+ * Attracts Geeks ;-)
+
+* Future 
+** 
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/mobile-lab.jpg
+:reveal_background_trans: fade
+:END:
+
+** 
+#+ATTR_REVEAL: :frag (t)
+ * CTO Icecode Pvt. India
+ * Maintain that legacy code
+ * Local Apps for India's smartphone explosion
+ * Mobile Technology School
+
+** and Travel Agent!
+:PROPERTIES:
+:reveal_background:  ./gemini-talk-images/valley.jpg
+:reveal_background_trans: fade
+:END:
+
+
+* Extras
+#+BEGIN_SRC lisp
+(setq browse-url-browser-function 'browse-url-xdg-open)
+#+END_SRC
+#+ATTR_REVEAL: :frag roll-in
+
+* Links and notes
+** Dropbox
+** Dropsync
+** Orgzly
+*** I don't use org-mode for my diary
+*** Prefer Business Calendar Pro (made in Berlin!)
+** Andmade share
+** Rotation control pro (to fix some buggy apps which only work in Portait mode)
+** GPS Logger
+** Vysor
+** scrcpy
+** SimpleMind
+** Twilight
+
+* Cool
+** Wifi to my camera
+** Hacking on the airport bus
+** Uber
+
+
+* Problems
+** Immersive mode not reliable
+** Lack of decent camera
+** Hinge a bit wobbly
+
+* Future talks and edits
+Writing Wrongs
+ripgrep is indeed written in rust but didnt have to compile it myself
+Sorry
+Actually did compile ...
+and cross-compiled ..
+
+q** Future Performances
+** A life changing keyboard experience
+** India 2.0 smartphones released
+** RR - Debugging is in the Past
+   Dear Robert,
+   
+
+
