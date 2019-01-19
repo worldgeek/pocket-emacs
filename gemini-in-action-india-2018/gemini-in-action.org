@@ -18,11 +18,11 @@
 ** Gary Phillips (worldgeek@rolmo.com)
 
 #+ATTR_REVEAL: :frag (t)
- * Born in June 😉
+ * Born in June
  * Consultant Software Engineer since 1992
  * System Troubleshooting
  * C/C++, Java, Javascript, Linux, MySQL, Python
- * Gigabytes of log files 
+ * Gigabytes of log files
 
 ** i can has Emacs
 :PROPERTIES:
@@ -101,7 +101,7 @@
  * $ emacs
 
 * Packing
-** 
+**
 :PROPERTIES:
 :reveal_background: ./assets/unpacked.jpg
 :reveal_background_trans: none
@@ -179,7 +179,7 @@ http://www.glacialadventures.net/
  * Physical keyboard
  * Hack anywhere
  * Even standing up on an airport bus
- * Android is always there 
+ * Android is always there
  * For web search, social media etc
  * Attracts Geeks ;-)
 
@@ -248,6 +248,3 @@ Gary Phillips (worldgeek@rolmo.com)
 *** India 2.0 smartphones released
 *** RR - Debugging is in the Past
     Dear Robert,
-   
-
-
