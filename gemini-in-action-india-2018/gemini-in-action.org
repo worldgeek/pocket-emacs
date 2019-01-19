@@ -1,14 +1,17 @@
 #+Author: Gary Phillips (WorldGeek)
 #+Email: worldgeek@rolmo.com
-#+OPTIONS: toc:nil date:nil timestamp:nil num:nil reveal_title_slide:nil
-
+#+OPTIONS: toc:nil date:nil timestamp:nil num:nil reveal_title_slide:nil reveal_center:nil
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/
 #+REVEAL_THEME: sky
-#+REVEAL_TRANS: cube  
+#+REVEAL_TRANS: none
+#+REVEAL_BACKGROUND_SIZE: contain
+#+REVEAL_EXTRA_CSS: assets/slide-background.css
 
 * Emacs, India and Geminis
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/mountain.jpg
-:reveal_background_trans: fade
+:reveal_background_size: contain
+:reveal_background:  ./assets/mountain.jpg
+:reveal_background_trans: none
 :END:
 
 * One Gemini
@@ -23,8 +26,9 @@
 
 ** i can has Emacs
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/emacs-screen.png
-:reveal_background_trans: fade
+:reveal_background_size: contain
+:reveal_background: ./assets/emacs-screen.png
+:reveal_background_trans: none
 :END:
 
 #+ATTR_REVEAL: :frag (t)
@@ -33,14 +37,15 @@
 ** Don't want to leave home without it!
 
 * Another Gemini
-** An Android Smartphone (yawn)
+** Android Smartphone (yawn)
 
 #+ATTR_REVEAL: :frag (t)
 ** with a Physical Keyboard (yay)!
 ** ❤️🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️ 🤓❤️
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/Image-PDA-2-3-Right-1_1296x.jpg
-:reveal_background_trans: fade
+:reveal_background_size: contain
+:reveal_background:  ./assets/Image-PDA-2-3-Right-1_1296x.jpg
+:reveal_background_trans: none
 :END:
 
 ** Gemini PDA Hardware Specs
@@ -57,76 +62,80 @@
 * India
 ** Our relationship began in 1995
 🇮🇳 🇬🇧
-** Tashi Jong, Kangra, Himachal, India
-
-https://earth.app.goo.gl/?apn=com.google.earth&ibi=com.google.b612&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4032.0750994,76.6253237,1028.75609506a,878.87986179d,35y,0h,45t,0r%2fdata%3dCmMaYRJZCiUweDM5MDZhNWFmZDJkYjI1NjM6MHg4MDQzNmFiZjU1ZWIxMzBiGYB5bducCUBAIXo6sk0FKFNAKh5UYXNoaSBKb25nIEtoYW1wYWdhciBNb25hc3RlcnkYAiABKAIoAg
-
-** 
+** Tashi Jong, Kangra, Himachal
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/village.jpg
-:reveal_background_trans: slide
+:reveal_background_size: contain
+:reveal_background:  ./assets/map-zoom-out.png
+:reveal_background_trans: none
 :END:
 
-** 
+** My Village (1)
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/shedra.jpg
-:reveal_background_trans: slide
+:reveal_data_state: clear
+:reveal_background:  ./assets/village.jpg
+:reveal_background_trans: none
 :END:
 
-*  Ready ...
+** My Village (2)
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/ready.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/shedra.jpg
+:reveal_background_trans: none
+:END:
+
+* Ready ...
+:PROPERTIES:
+:reveal_background:  ./assets/ready.jpg
+:reveal_background_trans: none
 :END:
 
 
 ** Install some Software
 #+ATTR_REVEAL: :frag (roll-in)
- * Rooted Android (from manufacturer)
- * Root shielding by Magisk
+ * Rooted Android (optional)
+ * Root shielding by Magisk (optiona)
  * Termux from Google Play Store
  * Now we have a terminal and /apt/
  * $ apt install emacs
  * $ apt install git
- * $ git clone spacemacs.git
+ * $ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
  * $ emacs
 
 * Packing
 ** 
 :PROPERTIES:
-:reveal_background: ./gemini-talk-images/unpacked.jpg
-:reveal_background_trans: slide
+:reveal_background: ./assets/unpacked.jpg
+:reveal_background_trans: none
 :END:
 
 * Playing In India
 ** Internet 1
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/GlocalMe-G3-on-stones-864x558.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/GlocalMe-G3-on-stones-864x558.jpg
+:reveal_background_trans: none
 :END:
 
 ** Internet 2
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/fiber.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/fiber.jpg
+:reveal_background_trans: none
 :END:
 
 ** My Transport
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/scooter.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/scooter.jpg
+:reveal_background_trans: none
 :END:
 
 ** 37.5 metre
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/guru-rinpoche.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/guru-rinpoche.jpg
+:reveal_background_trans: none
 :END:
 
 ** Clear Sky
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/moon-clear.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/moon-clear.jpg
+:reveal_background_trans: none
 :END:
 
 
@@ -134,22 +143,22 @@ https://earth.app.goo.gl/?apn=com.google.earth&ibi=com.google.b612&isi=293622097
 
 ** The Company
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/glacial.png
-:reveal_background_trans: fade
+:reveal_background:  ./assets/glacial.png
+:reveal_background_trans: none
 :END:
 
 http://www.glacialadventures.net/
 
 ** The Boss
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/rana.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/rana.jpg
+:reveal_background_trans: none
 :END:
 
 ** The Team
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/callcentre.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/callcentre.jpg
+:reveal_background_trans: none
 :END:
 
 ** The Work
@@ -174,14 +183,14 @@ http://www.glacialadventures.net/
  * For web search, social media etc
  * Attracts Geeks ;-)
 
-* Future 
-** 
+* Future
+* Mobile Computer Education Lab
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/mobile-lab.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/mobile-lab.jpg
+:reveal_background_trans: none
 :END:
 
-** 
+** Commercial Work
 #+ATTR_REVEAL: :frag (t)
  * CTO Icecode Pvt. India
  * Maintain that legacy code
@@ -190,54 +199,55 @@ http://www.glacialadventures.net/
 
 ** and Travel Agent!
 :PROPERTIES:
-:reveal_background:  ./gemini-talk-images/valley.jpg
-:reveal_background_trans: fade
+:reveal_background:  ./assets/valley.jpg
+:reveal_background_trans: none
 :END:
+Gary Phillips (worldgeek@rolmo.com)
+
+* Hidden                                                :noexport:
+** Extras
+ #+BEGIN_SRC lisp
+ (setq browse-url-browser-function 'browse-url-xdg-open)
+ #+END_SRC
+ #+ATTR_REVEAL: :frag roll-in
+
+** Links and notes
+*** Dropbox
+*** Dropsync
+*** Orgzly
+**** I don't use org-mode for my diary
+**** Prefer Business Calendar Pro (made in Berlin!)
+*** Andmade share
+*** Rotation control pro (to fix some buggy apps which only work in Portait mode)
+*** GPS Logger
+*** Vysor
+*** scrcpy
+*** SimpleMind
+*** Twilight
+
+** Cool
+*** Wifi to my camera
+*** Hacking on the airport bus
+*** Uber
 
 
-* Extras
-#+BEGIN_SRC lisp
-(setq browse-url-browser-function 'browse-url-xdg-open)
-#+END_SRC
-#+ATTR_REVEAL: :frag roll-in
+** Problems
+*** Immersive mode not reliable
+*** Lack of decent camera
+*** Hinge a bit wobbly
 
-* Links and notes
-** Dropbox
-** Dropsync
-** Orgzly
-*** I don't use org-mode for my diary
-*** Prefer Business Calendar Pro (made in Berlin!)
-** Andmade share
-** Rotation control pro (to fix some buggy apps which only work in Portait mode)
-** GPS Logger
-** Vysor
-** scrcpy
-** SimpleMind
-** Twilight
+** Future talks and edits
+ Writing Wrongs
+ ripgrep is indeed written in rust but didnt have to compile it myself
+ Sorry
+ Actually did compile ...
+ and cross-compiled ..
 
-* Cool
-** Wifi to my camera
-** Hacking on the airport bus
-** Uber
-
-
-* Problems
-** Immersive mode not reliable
-** Lack of decent camera
-** Hinge a bit wobbly
-
-* Future talks and edits
-Writing Wrongs
-ripgrep is indeed written in rust but didnt have to compile it myself
-Sorry
-Actually did compile ...
-and cross-compiled ..
-
-q** Future Performances
-** A life changing keyboard experience
-** India 2.0 smartphones released
-** RR - Debugging is in the Past
-   Dear Robert,
+ q** Future Performances
+*** A life changing keyboard experience
+*** India 2.0 smartphones released
+*** RR - Debugging is in the Past
+    Dear Robert,
    
 
 
