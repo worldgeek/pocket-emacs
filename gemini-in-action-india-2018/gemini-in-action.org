@@ -18,7 +18,7 @@
 ** Gary Phillips (worldgeek@rolmo.com)
 
 #+ATTR_REVEAL: :frag (t)
- * Born in June
+ * Born in June 😉
  * Consultant Software Engineer since 1992
  * System Troubleshooting
  * C/C++, Java, Javascript, Linux, MySQL, Python
@@ -101,7 +101,6 @@
  * $ emacs
 
 * Packing
-**
 :PROPERTIES:
 :reveal_background: ./assets/unpacked.jpg
 :reveal_background_trans: none
