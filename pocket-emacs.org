@@ -1,0 +1,30 @@
+#+Author: Gary Phillips (WorldGeek)
+#+Email: worldgeek@rolmo.com
+#+OPTIONS: toc:nil date:nil timestamp:nil num:nil
+
+* World Geek's Pocket Emacs Page
+** Running Emacs on your smartphone, PDA or other tiny computer
+My Pocket Emacs device is the [[https://store.planetcom.co.uk/products/gemini-pda-1][Gemini PDA]], an Android smartphone with an
+integrated hardware keyboard.
+
+  [[https://store.planetcom.co.uk/products/gemini-pda-1][file:gemini-in-action-india-2018/assets/Gemini-PDA-hands.jpg]]
+
+** [[./gemini-in-action-india-2018/gemini-in-action.html][Emacs, India and Geminis -- Pocket Emacs goes to India]]
+  Slides for a talk given to the Berlin Emacs user group in December 2018.
+
+  The slides were prepared with help of the following software, all of which
+  runs natively on Android in the [[https://termux.com/][Termux]] environment.
+
+| [[https://termux.com][Termux]]     | an Android app providing a Linux environment |
+| [[https://www.gnu.org/software/emacs][Emacs 26.1]] |                                              |
+| [[https://orgmode.org][Org mode]]   | the Emacs-hosted killer app                  |
+| [[http://spacemacs.org][Spacemacs]]  | a nice set of curated packages for Emacs     |
+| [[https://github.com/yjwen/org-reveal][Org reveal]] | a reveal.js exporter for Org mode            |
+
+ [[https://revealjs.com][reveal.js]], an HTML presentation framework
+
+[[./gemini-in-action-india-2018/gemini-in-action.html][The presentation]] ran directly on the Gemini in a web browser. I also
+   demonstrated using Emacs on the Gemini. The Android screen was streamed via
+   [[https://github.com/Genymobile/scrcpy][Scrcpy]] over USB to my MacBook and thence to the data projector. There are
+   other ways to achieve this, for example [[https://www.vysor.io/][Vysor]] which works over Wifi or a
+   direct connection to the projector from the Gemini's [[https://store.planetcom.co.uk/collections/accessories/products/gemini-hdmi-video-cable][HDMI dongle]].
