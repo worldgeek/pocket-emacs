@@ -16,6 +16,8 @@ The [[https://store.planetcom.co.uk/products/gemini-pda-1][Gemini PDA]] is an An
 * Pocket Emacs goes to India
    [[./gemini-in-action-india-2018/gemini-in-action.html][Slides]] for a talk given to the Berlin Emacs User Group in December 2018.
 
+   Source code for the slides [[https://github.com/worldgeek/pocket-emacs][here]] on github.com.
+
 * Preparing a slide presentation
 I prepare slides using the following software packages, which run
 natively on Android in the [[https://termux.com/][Termux]] environment.
