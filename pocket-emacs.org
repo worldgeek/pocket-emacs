@@ -4,6 +4,13 @@
 #+TITLE: Worldgeek's Pocket Emacs Page
 #+OPTIONS: num:nil timestamp:nil author:nil 
 #+SETUPFILE: org-html-themes/setup/theme-readtheorg.setup
+#+HTML_HEAD_EXTRA: <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+#+HTML_HEAD_EXTRA: <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+#+HTML_HEAD_EXTRA: <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+#+HTML_HEAD_EXTRA: <link rel="manifest" href="/site.webmanifest">
+#+HTML_HEAD_EXTRA: <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+#+HTML_HEAD_EXTRA: <meta name="msapplication-TileColor" content="#da532c">
+#+HTML_HEAD_EXTRA: <meta name="theme-color" content="#ffffff">
 
 * Emacs on Smartphones
 
